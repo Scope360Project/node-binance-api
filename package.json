@@ -1,5 +1,5 @@
 {
-  "name": "scpode360-node-binance-api",
+  "name": "scope360-node-binance-api",
   "version": "1.0.0",
   "description": "Binance API for node https://github.com/jaggedsoft/node-binance-api. Forked by Scope360 dev team.",
   "main": "node-binance-api.js",
@@ -25,18 +25,15 @@
   },
   "repository": {
     "type": "https",
-    "url": "https://github.com/Scope360Project/node-binance-api.git"
+    "url": "git+https://github.com/Scope360Project/node-binance-api.git"
   },
   "keywords": [
     "binance",
     "api",
     "scope360"
   ],
-  "author": "",
+  "author": "Scope360 Team",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "https://github.com/jaggedsoft/node-binance-api#readme",
   "devDependencies": {
     "chai": "^4.2.0",
@@ -50,5 +47,11 @@
     "mocha": "^6.2.2",
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^14.1.1"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "bugs": {
+    "url": "https://github.com/Scope360Project/node-binance-api/issues"
   }
 }

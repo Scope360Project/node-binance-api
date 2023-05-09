@@ -33,7 +33,7 @@ This project is designed to help you make your own projects that interact with t
 </p></b>
 
 #### Installation: **`npm install -s node-binance-api`**
-[![npm install node-binance-api](https://nodei.co/npm/node-binance-api.png?mini=true)](https://npmjs.org/package/node-binance-api)
+[![npm install scope360-node-binance-api](https://nodei.co/npm/node-binance-api.png?mini=true)](https://npmjs.org/package/node-binance-api)
 
 #### Getting started
 ```javascript
