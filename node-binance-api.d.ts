@@ -1364,7 +1364,7 @@ declare module "node-binance-api" {
          * @param {object} params - Optional reconnect {boolean} (whether to reconnect on disconnect), openCallback {function}, id {string}
          * @return {WebSocket} the websocket reference
          */
-        futuresSubscribeSingle(url: string, callback: _callback, params?: any): WebSocket;
+        futuresSubscribeSingle(url: string, callback: _callback, params?: any): IWebsockets;
         futuresSubscribeSingle(...args: any): any;
 
         /**
@@ -1374,7 +1374,7 @@ declare module "node-binance-api" {
          * @param {object} params - Optional reconnect {boolean} (whether to reconnect on disconnect), openCallback {function}, id {string}
          * @return {WebSocket} the websocket reference
          */
-        futuresSubscribe(streams: string, callback: _callback, params?: any ): WebSocket;
+        futuresSubscribe(streams: string, callback: _callback, params?: any ): IWebsockets;
         futuresSubscribe(...args: any): any;
 
         /**
@@ -1485,7 +1485,7 @@ declare module "node-binance-api" {
          * @param {object} params - Optional reconnect {boolean} (whether to reconnect on disconnect), openCallback {function}, id {string}
          * @return {WebSocket} the websocket reference
          */
-        deliverySubscribe(streams: string, callback: _callback, params?: any): WebSocket;
+        deliverySubscribe(streams: string, callback: _callback, params?: any): IWebsockets;
         deliverySubscribe(...args: any): any;
 
         /**
@@ -1500,7 +1500,7 @@ declare module "node-binance-api" {
          * @param {string} endpoint - the string associated with the endpoint
          * @return {undefined}
          */
-        deliveryTerminate(endpoint: string);
+        deliveryTerminate(endpoint: string): any;
         deliveryTerminate(...args: any): any;
 
         /**
