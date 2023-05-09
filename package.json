@@ -1,7 +1,7 @@
 {
-  "name": "node-binance-api",
-  "version": "0.13.1",
-  "description": "Binance API for node https://github.com/jaggedsoft/node-binance-api",
+  "name": "scpode360-node-binance-api",
+  "version": "1.0.0",
+  "description": "Binance API for node https://github.com/jaggedsoft/node-binance-api. Forked by Scope360 dev team.",
   "main": "node-binance-api.js",
   "typings": "node-binance-api.d.ts",
   "dependencies": {
@@ -24,17 +24,18 @@
     "codecov": "codecov"
   },
   "repository": {
-    "type": "git",
-    "url": "git://github.com/jaggedsoft/node-binance-api.git"
+    "type": "https",
+    "url": "https://github.com/Scope360Project/node-binance-api.git"
   },
   "keywords": [
     "binance",
-    "api"
+    "api",
+    "scope360"
   ],
-  "author": "Jon Eyrick <info@liquidity.ltd> (https://darkpool.ventures)",
+  "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaggedsoft/node-binance-api/issues"
+    "url": ""
   },
   "homepage": "https://github.com/jaggedsoft/node-binance-api#readme",
   "devDependencies": {
