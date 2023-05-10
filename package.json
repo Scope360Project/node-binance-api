@@ -1,6 +1,6 @@
 {
   "name": "scope360-node-binance-api",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Binance API for node https://github.com/jaggedsoft/node-binance-api. Forked by Scope360 dev team.",
   "main": "node-binance-api.js",
   "typings": "node-binance-api.d.ts",
