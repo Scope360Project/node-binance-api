@@ -189,7 +189,7 @@ let api = function Binance( options = {} ) {
     }
 
     const proxyRequest = ( opt, cb ) => {
-        const req = request( addProxy( opt ), reqHandler( cb ) ).on('error', (err) => { cb( err, {} ) });
+        const req = request( addProxy( opt ), reqHandler( cb ) ).on('error', (err ) => { cb( err, {} ) });
         return req;
     }
 
